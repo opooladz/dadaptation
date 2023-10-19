@@ -1,16 +1,4 @@
 # D-Adaptation
-[![Downloads](https://static.pepy.tech/badge/dadaptation)](https://pepy.tech/project/dadaptation) [![Downloads](https://static.pepy.tech/badge/dadaptation/month)](https://pepy.tech/project/dadaptation)
-
-Learning rate free learning for SGD, AdaGrad and Adam! 
-
-*by Aaron Defazio and Konstantin Mishchenko [(Arxiv)](https://arxiv.org/abs/2301.07733)*
-
-``` pip install dadaptation ```
-
-**NEW V3.0 release uses an improved algorithm that may give different results from past versions. The old version is still availiable under experimental/d_adapt_adam_preprint.**
-
-## NEW: Prodigy
-We have recently released the [Prodigy](https://github.com/konstmish/prodigy) method, which grows the adapted learning rate faster than D-Adaptation in theory and practice. Try it out if D-Adaptation is under-estimating the learning rate.
 
 ## How To Cite
 If you use D-Adaptation in a publication, please cite our work as 
