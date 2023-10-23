@@ -1,7 +1,12 @@
-# D-Adaptation
+# D-Adaptation Fork (unofficial) 
+I have just added a few extra optimizers and will continue to do so. 
+
+I have added AdaHessian, AdaBelief, and Stochastic Mirror Descent. I plan on adding Apollo as well as Shampoo. 
+
+I might add PSGD for fun although it likely will not see much benefit from D-Adaption since the lr is already normalized. 
 
 ## How To Cite
-If you use D-Adaptation in a publication, please cite our work as 
+If you use D-Adaptation in a publication, please cite the authors work work (not me) as 
 ```
 @ARTICLE{defazio2023dadapt,
 author = {Aaron Defazio and Konstantin Mishchenko},
